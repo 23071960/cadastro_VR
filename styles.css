@@ -1,7 +1,7 @@
 @import url(estilos/formulario.css);
 
 .principal {
-    background-image: url(../imagens/vr-7473405_1280.jpg);
+    background-image: url(imagens/vr-7473405_1280.jpg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
