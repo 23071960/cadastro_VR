@@ -1,0 +1,87 @@
+@import url(estilos/formulario.css);
+
+.principal {
+    background-image: url(imagens/vr-7473405_1280.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo {
+    width: 100%;
+    background-color: rgba(114, 100, 237, 0.8); 
+    text-align: center;    
+    padding: 20px 10px;
+}
+
+.titulo_01 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem; /* Ajustado para rem */
+    color: rgb(241, 135, 233);
+    text-shadow: 4px 4px 8px rgba(246, 247, 248, 0.9);
+}
+
+.titulo_02 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem; /* Ajustado para rem */
+    color: rgb(27, 238, 8);
+    text-shadow: 08px 08px 20px rgba(14, 14, 0, 0.9);     
+}
+
+.faixa {
+    height: 30px;
+    background-color: rgba(6, 24, 2, 0.6);
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+}
+
+.texto_rodapé {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+/* Media Queries para telas menores */
+@media (max-width: 768px) {
+    .titulo_01 {
+        font-size: 2rem;
+    }
+
+    .titulo_02 {
+        font-size: 1.5rem;
+    }
+
+    .form_cadastro {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .titulo, .footer {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo_01 {
+        font-size: 1.5rem;
+    }
+
+    .titulo_02 {
+        font-size: 1.2rem;
+    }
+
+    .form_cadastro {
+        padding: 10px;
+    }
+}
+
+

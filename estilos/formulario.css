@@ -1,0 +1,77 @@
+/* Estilizando o formulário */
+.form_cadastro {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    max-width: 400px;
+    width: 100%;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    color: rgb(245, 243, 242);
+    box-shadow: 10px 20px 22px rgba(0, 0, 0, 0.9);
+    position: relative;
+    bottom: 0;
+    margin-left: 20px; /* Define a distância da borda esquerda */
+    margin-right: auto; /* Garante que o formulário não se centralize */
+    transform: none;
+}
+
+
+/* Estilizando os rótulos */
+.form_cadastro label { 
+    width: 15%;  
+    font-size: 1rem;
+    text-shadow: 12px 12px 20px rgba(7, 0, 0, 0.9);
+    color: #f0f7f2;
+    margin-bottom: 10px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro */
+    padding: 5px 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Borda suave */
+}
+
+
+/* Estilizando os campos de entrada */
+.form_cadastro input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Mudança de borda e sombra ao focar nos campos */
+.form_cadastro input[type="text"]:focus {
+    border-color: cornflowerblue;
+    box-shadow: 0px 0px 8px rgba(100, 149, 237, 0.5);
+    outline: none;
+}
+
+/* Estilizando o botão de envio */
+.form_cadastro input[type="submit"] {
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito de hover no botão de envio */
+.form_cadastro input[type="submit"]:hover {
+    background-color: royalblue;
+    transform: scale(1.05);
+}
+
+/* Adicionando uma sombra suave ao clicar no botão de envio */
+.form_cadastro input[type="submit"]:active {
+    background-color: dodgerblue;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
