@@ -9,6 +9,12 @@
     margin: 0;
     padding: 20px;
 }
+.creditos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    text-align: right;
+    margin-bottom: -120px;
+}
 
 footer {
     background-color: black;
